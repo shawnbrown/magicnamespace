@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 try:
-    from types import SimpleNamespace
+    from types import SimpleNamespace  # New in version 3.3
 except ImportError:
     class SimpleNamespace(object):
         def __init__(self, **kwds):
